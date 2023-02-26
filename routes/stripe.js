@@ -12,7 +12,7 @@ const line_items=req.body.data.map((item)=>{
   price_data: {
     currency: 'inr',
     product_data: {
-      name: 'item.title',
+      name: item.title,
       images:[item.url],
       description:item.desc,
       metadata:{
